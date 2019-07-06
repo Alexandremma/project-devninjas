@@ -1,0 +1,423 @@
+/* Estilização Geral ********************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-spacing: 0.5em;
+}
+
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    max-width: 2000px;
+    min-width: 300px;
+    margin: 0 auto;
+    color: #9d9d9d;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #489aff;
+    margin: 1.5em 0;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #489aff;
+    margin: 1em;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+    display: block;
+}
+
+.icon {
+    width: 80px;;
+}
+
+/* Estilização Header ********************/
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #489aff;
+    padding: 2em 10% 0 10%;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-link {
+    padding: 0.5em;
+    color: #b5d5ff;
+    transition-duration: 300ms;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+/* Estilização Main ********************/
+
+/* Estilização Seção Home ********************/
+
+#home {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    background-color: #489aff;
+    background-image: url("../img/bg-home.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 5% 10% 15% 10%;
+}
+
+#home-content {
+    width: 60%;
+}
+
+#home-text {
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+span.dn {
+    color: #ffc300;
+}
+
+.btn {
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    transition-duration: 300ms;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #489aff;
+}
+
+/* Estilização Seção Services ********************/
+#services {
+    padding: 10%;
+}
+
+#services-title {
+    text-align: center;
+}
+
+#services-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    flex-basis: 200px;
+    margin: 2em 1em;
+    text-align: center;
+}
+
+/* Estilização Seção Process ********************/
+#process {
+    background-color: #f7f7f7;
+    padding: 4em 10%;
+}
+
+#process-title {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+#process-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    position: relative;
+}
+
+.process-card {
+    background: #fff;
+    width: 360px;
+    height: 450px;
+    padding: 0 2em;
+    margin: 50px 10px;
+    border-radius: 20px;
+}
+
+.process-icon {
+    position: relative;
+    top: -40px;
+}
+
+.process-name {
+    padding: 15px 0;
+    margin-top: -15px;
+    margin-bottom: 0;
+}
+
+#process-name1-color {
+    color: #ffc240;
+}
+
+#process-name2-color {
+    color: #489aff;
+}
+
+#process-name3-color {
+    color: #ff8b40;
+}
+
+.process-text {
+    padding: 1.5em 0;
+}
+
+/* Estilização Seção Main-text1 ********************/
+#main-text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f7f7f7;
+    background-image: url("../img/breathe-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    text-align: center;
+    height: 40vh;
+    padding: 10%;
+}
+
+.main-text {
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Estilização Seção Companies ********************/
+#companies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 10%;
+}
+
+#companie-card {
+    width: 350px;
+    margin: 1em 2em;
+}
+
+/* Estilização Seção Main-form ********************/
+#main-form {
+    padding: 10%;
+}
+
+#form-title {
+    text-align: center;
+}
+
+.form-info {
+    width: 70%;
+    background-color: #489aff;
+    color: #fff;
+    padding: 35px 10px;
+    margin: 20px auto;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#info1-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div label {
+    margin: 10px 10px;
+}
+
+#info2-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#form-personal-info {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#form-personal-input input {
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    margin: 0 5px 20px 5px;
+    /* width: 100%; */
+}
+
+#form-personal-input input::-webkit-input-placeholder {
+    color: #b5d5ff;
+}
+
+#form-personal-textarea textarea {
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    width: 85%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#form-personal-textarea textarea::-webkit-input-placeholder {
+    color: #b5d5ff;
+}
+
+#form-personal-select select {
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+    width: 35%;
+    color: #b5d5ff;
+}
+
+#form-submit {
+    text-align: center;
+}
+
+#form-submit input {
+    border: none;
+    font-size: 1em;
+    font-weight: bolder;
+    color: #fff;
+    background-color: #489aff;
+    padding: 10px 50px;
+    border-radius: 50px;
+}
+
+#form-submit input:hover {
+    background-color: #a4cdff;
+    cursor: pointer;
+}
+
+/* Estilização Seção Main-text2 ********************/
+#main-text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url("../img/breathe-bg-inverted.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    text-align: center;
+    height: 40vh;
+    padding: 10%;
+    color: #fff;
+}
+
+#main-text-line1 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 2em 0;
+}
+
+/* Estilização Footer ********************/
+#footer {
+    padding: 0 10% 10% 10%;
+    text-align: center;
+    color: #489aff;
+}
+
+#footer-image {
+    margin-bottom: 2em;
+}
+
+#footer p {
+    margin: 5px 0;
+}
+
+#footer-adress {
+    font-size: 12px;
+}
+
+#footer-text {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Media Querie - 900px ********************/
+@media screen and (max-width: 900px) {
+    /* Estilização Header ********************/
+    #header {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        text-align: center;
+        margin: 5% 0;
+    }
+
+    .nav-item {
+        margin: 5% 0;
+    }
+
+    /* Estilização Menu ********************/
+
+    /* Estilização Seção Home ********************/
+    #home {
+        background-image: none;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #home-image {
+        display: none;
+    }
+
+    /* Estilização Seção Main-text1 ********************/
+    .main-text {
+        font-size: 1.4em;
+    }
+
+    /* Estilização Seção Main-form ********************/
+    #form-personal-input input {
+        width: 80%;
+    }
+
+    /* Estilização Seção Main-text2 ********************/
+    #main-text-line1 {
+        font-size: 1em;
+        margin: 1em 0;
+    }
+
+    #main-text-line2 {
+        font-size: 0.8em;
+    }
+}
